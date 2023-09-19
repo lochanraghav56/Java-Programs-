@@ -1,0 +1,14 @@
+import java.util.*;
+
+class lowUpper
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the string to be converted to UpperCase");
+		String str = sc.nextLine();
+
+		str = str.toUpperCase();  //converts string to uppercase
+		System.out.println("String on using toUpperCase() method = "+str);
+	}
+}
